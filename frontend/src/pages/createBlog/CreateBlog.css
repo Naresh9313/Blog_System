@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f7971e, #ffd200);
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-form input,
+.blog-form textarea {
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  resize: none;
+  transition: border 0.3s ease-in-out;
+}
+
+.blog-form input:focus,
+.blog-form textarea:focus {
+  border-color: #f7971e;
+  outline: none;
+  box-shadow: 0 0 8px rgba(247, 151, 30, 0.2);
+}
+
+.blog-form button {
+  padding: 12px;
+  background-color: #f7971e;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.blog-form button:hover {
+  background-color: #e0861b;
+}
